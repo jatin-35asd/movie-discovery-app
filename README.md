@@ -1,67 +1,58 @@
 # 🎬 Movie Discovery App
 
-A modern and responsive movie discovery web application built using **React** and **Redux Toolkit**, powered by the **TMDB API**.  
-The app allows users to explore movies and TV shows, view detailed information, cast, trailers, ratings, and get similar recommendations.
+A responsive movie discovery web application built using **React** and **Redux Toolkit**, powered by the **TMDB API**.
+
+This app allows users to explore movies and TV shows, view ratings, cast details, trailers, and get similar recommendations.
 
 ---
 
 ## 🚀 Features
 
 - Browse trending movies and TV shows
-- Search movies and TV shows in real time
-- View detailed information including:
-  - Ratings
-  - Overview
-  - Cast & crew
-  - Release date
-  - Duration
+- Search movies and TV shows
+- View movie details (rating, overview, cast, duration)
 - Watch trailers
-- Get similar and recommended content
-- Fully responsive UI for desktop and mobile
+- Similar and recommended content
+- Responsive UI
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React.js
-- **State Management:** Redux Toolkit
-- **Styling:** Tailwind CSS
-- **API Handling:** Axios
-- **Date Formatting:** Moment.js
-- **API:** TMDB (The Movie Database)
+- React.js
+- Redux Toolkit
+- Tailwind CSS
+- Axios
+- Moment.js
+- TMDB API
 
 ---
 
-## 📸 Screenshots
+## ⚙️ Run Locally
 
-> Screenshots of the application UI are shown below:
-
-![Home Page](./screenshots/home.png)
-![Movie Details](./screenshots/details.png)
-
----
-
-## ⚙️ Installation & Setup
-
-Follow the steps below to run the project locally:
-
-### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/jatin-35asd/movie-discovery-app.git
-cd movie-discovery-app
-2️⃣ Install dependencies
 npm install
-
-3️⃣ Setup environment variables
-
-Create a .env file in the root directory and add:
-
-REACT_APP_TMDB_API_KEY=your_tmdb_api_key_here
-
-4️⃣ Start the application
 npm start
 
+Create a .env file and add:
 
-The app will run on:
+REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+
+
+App runs on:
 
 http://localhost:3000
+
+📌 Notes
+
+Built for learning and practice
+
+TMDB API key required
+
+.env file should not be committed
+
+👤 Author
+
+Jatin Jangra
+GitHub: https://github.com/jatin-35asd
+
